@@ -107,7 +107,7 @@ class PingThread(threading.Thread):
         global stop_flag, total_packets, total_bytes
         while not stop_flag:
             try:
-                src_ip = generate_spoof_ip(self.spoof_blocks) if self.spoof else "1.1.1.1"
+                src_ip = generate_spoof_ip(self.spoof_blocks) if self.spoof else "192.168.1.20"
                 payload = generate_payload(self.min_size, self.max_size, self.payload_mode)
                 icmp = create_icmp_packet(self.seq, payload)
                 ip = create_ip_header(src_ip, self.dst_ip, len(icmp), self.seq)
@@ -187,7 +187,7 @@ class MainWindow(QMainWindow):
         central = QWidget()
         central.setLayout(layout)
         self.setCentralWidget(central)
-        self.setWindowTitle("nzap - Python ICMP Flood Tool")
+        self.setWindowTitle("nzap-qt")
 
     def start_flood(self):
         global stop_flag, total_packets, total_bytes
