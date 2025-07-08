@@ -1,4 +1,4 @@
-## 💡 Tool Information
+![resim](https://github.com/user-attachments/assets/915429bf-121a-4f6d-ae8b-6f6048dce0e0)## 💡 Tool Information
 
 This tool is developed in **Python** with a user-friendly **Qt5 (PyQt5)** interface. It allows users to customize network packet behavior, especially useful for stress testing or educational demonstrations on network load handling.
 
@@ -10,6 +10,8 @@ The application offers a **strong IP spoofing engine**. You can configure each o
 - A **range** like `50-100` will choose a number between 50 and 100.
 - A **single number** like `168` will fix that octet to that value.
 
+
+![hacker-gif-7](https://github.com/user-attachments/assets/733f2260-f1d4-4589-8689-c63c33bd2bfc)
 
 ### 📦 Payload Options
 
@@ -25,7 +27,7 @@ The tool supports multithreading. Up to **10 threads** are recommended for stabl
 
 In practical tests, just **2 threads** sending packets of **50–100 bytes** were sufficient to crash a standard home router — showing how lightweight yet powerful the tool can be.
 
-<div class="tenor-gif-embed" data-postid="20506736" data-share-method="host" data-aspect-ratio="1.33333" data-width="100%"><a href="https://tenor.com/view/hack-gif-20506736">Hack GIF</a>from <a href="https://tenor.com/search/hack-gifs">Hack GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+![resim](https://github.com/user-attachments/assets/387ea7ef-7f0e-4521-a944-b63a5ac11025)
 
 
 ## ⚠️ Legal & Ethical Notice
