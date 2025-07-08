@@ -17,7 +17,7 @@ The application offers a **strong IP spoofing engine**. You can configure each o
 
 You can choose the payload content mode:
 - **Raw**: Sends completely random bytes.
-- **Base64**: Sends Base64-encoded random data (increases entropy).
+- **Base64**: Sends Base64-encoded random data.
 
 You also define a **minimum and maximum size** (in bytes). Each packet will randomly choose a size in that range, making traffic look unpredictable and realistic.
 
