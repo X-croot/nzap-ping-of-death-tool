@@ -11,7 +11,7 @@ The application offers a **strong IP spoofing engine**. You can configure each o
 
 
 
- ![resim](https://media.tenor.com/lTMHR9yDL9cAAAAM/hacker-meteo.gif)        ![resim](https://media.tenor.com/B64hJM7Ki1QAAAAM/pc-fire.gif)
+ ![resim](https://media.tenor.com/VrzXhtoSwcsAAAAM/hacker-typing.gif)        ![resim](https://media.tenor.com/B64hJM7Ki1QAAAAM/pc-fire.gif)
 
 ### 📦 Payload Options
 
