@@ -1,4 +1,4 @@
----
+
 
 ## ⚠️ Legal & Ethical Notice
 
@@ -12,4 +12,3 @@ By using this tool, you agree to:
 
 > **The author of this tool assumes no liability** for any misuse, damage, or legal issues caused by this software. Use it wisely and at your own risk.
 
----
