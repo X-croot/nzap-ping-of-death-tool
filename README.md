@@ -1,18 +1,31 @@
+## 💡 Tool Information
+
+This tool is developed in **Python** with a user-friendly **Qt5 (PyQt5)** interface. It allows users to customize network packet behavior, especially useful for stress testing or educational demonstrations on network load handling.
+
+### 🕵️‍♂️ IP Spoofing
+
+The application offers a **strong IP spoofing engine**. You can configure each of the four octets of an IP address manually:
+
+- Entering **`r`** will use a random number from **1 to 255**.
+- A **range** like `50-100` will choose a number between 50 and 100.
+- A **single number** like `168` will fix that octet to that value.
 
 
+### 📦 Payload Options
 
+You can choose the payload content mode:
+- **Raw**: Sends completely random bytes.
+- **Base64**: Sends Base64-encoded random data (increases entropy).
 
+You also define a **minimum and maximum size** (in bytes). Each packet will randomly choose a size in that range, making traffic look unpredictable and realistic.
 
+### 🔁 Threading
 
+The tool supports multithreading. Up to **10 threads** are recommended for stable performance.
 
+In practical tests, just **2 threads** sending packets of **50–100 bytes** were sufficient to crash a standard home router — showing how lightweight yet powerful the tool can be.
 
-
-
-
-
-
-
-
+<div class="tenor-gif-embed" data-postid="20506736" data-share-method="host" data-aspect-ratio="1.33333" data-width="100%"><a href="https://tenor.com/view/hack-gif-20506736">Hack GIF</a>from <a href="https://tenor.com/search/hack-gifs">Hack GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
 
 
 ## ⚠️ Legal & Ethical Notice
