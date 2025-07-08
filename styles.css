@@ -1,0 +1,102 @@
+
+QMainWindow {
+    background-color: #0d0d0d;
+    color: #d0d0d0;
+    font-family: "Fira Code", "JetBrains Mono", monospace;
+    font-size: 13px;
+}
+
+QPushButton {
+    background-color: #1a1a1a;
+    color: #bb86fc;
+    border: 1px solid #3f0071;
+    border-radius: 5px;
+    padding: 6px 14px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+QPushButton:hover {
+    background-color: #220033;
+    border: 1px solid #bb86fc;
+    color: #ffffff;
+    box-shadow: 0 0 8px #bb86fc;
+}
+
+QPushButton:pressed {
+    background-color: #3f0071;
+    color: white;
+}
+
+QLineEdit, QComboBox {
+    background-color: #121212;
+    color: #bb86fc;
+    border: 1px solid #3f0071;
+    border-radius: 4px;
+    padding: 5px 10px;
+}
+
+QLineEdit:focus, QComboBox:focus {
+    border: 1px solid #bb86fc;
+    background-color: #1a1a1a;
+}
+
+QComboBox QAbstractItemView {
+    background-color: #121212;
+    color: #bb86fc;
+    border: 1px solid #3f0071;
+    selection-background-color: #3f0071;
+    font-family: "Fira Code";
+}
+
+QCheckBox {
+    color: #bb86fc;
+    font-weight: bold;
+}
+
+QCheckBox::indicator {
+    width: 14px;
+    height: 14px;
+}
+
+QCheckBox::indicator:unchecked {
+    border: 1px solid #3f0071;
+    background-color: #121212;
+}
+
+QCheckBox::indicator:checked {
+    background-color: #bb86fc;
+    border: 1px solid #bb86fc;
+}
+
+QTableWidget {
+    background-color: #1a1a1a;
+    color: #d0d0d0;
+    gridline-color: #3f0071;
+    border: 1px solid #3f0071;
+    font-family: "JetBrains Mono";
+}
+
+QHeaderView::section {
+    background-color: #2a003f;
+    color: #bb86fc;
+    padding: 4px;
+    border: none;
+}
+
+QScrollBar:vertical, QScrollBar:horizontal {
+    background-color: #121212;
+    width: 10px;
+    margin: 0px;
+}
+
+QScrollBar::handle:vertical, QScrollBar::handle:horizontal {
+    background-color: #bb86fc;
+    border-radius: 5px;
+}
+
+QLabel {
+    color: #bb86fc;
+    font-weight: 500;
+}
+
