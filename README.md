@@ -10,7 +10,7 @@ The application offers a **strong IP spoofing engine**. You can configure each o
 - A **single number** like `168` will fix that octet to that value.
 
 
-![resim]([https://github.com/user-attachments/assets/387ea7ef-7f0e-4521-a944-b63a5ac11025](https://media.tenor.com/B64hJM7Ki1QAAAAM/pc-fire.gif))
+![resim](https://media.tenor.com/B64hJM7Ki1QAAAAM/pc-fire.gif)
 
 ### 📦 Payload Options
 
