@@ -1,4 +1,3 @@
-![resim](https://github.com/user-attachments/assets/915429bf-121a-4f6d-ae8b-6f6048dce0e0)## 💡 Tool Information
 
 This tool is developed in **Python** with a user-friendly **Qt5 (PyQt5)** interface. It allows users to customize network packet behavior, especially useful for stress testing or educational demonstrations on network load handling.
 
