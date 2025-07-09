@@ -47,7 +47,7 @@ By using this tool, you agree to:
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/yourusername/nzap.git
+git clone https://github.com/X-croot/nzap-icmp-flood-tool.git
 cd nzap
 
 # 2. (Optional) Create a virtual environment
